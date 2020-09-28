@@ -1,0 +1,23 @@
+<!Doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Minha página</title>
+        <meta charset="utf-8">
+        <!-- Aula de Programacao-para-internet-com-JavaScript -->
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+    <!-- quando carregar o body chama função load -->
+    <body onload="load()">
+        <button onclick="clicou()">Clique aqui</button>
+        <p id="agradecimento" onclick="redirecionar()"></p>
+        <p id="mouseMove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui!</p>
+        <p id="mouseMove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui!</p>
+        <!-- quando valor mudar chama função change  -->
+        <select onchange="change(this)">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
+    </body>
+</html>
